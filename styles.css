@@ -149,3 +149,81 @@ body {
     height: auto;
     border-radius: 8px;
 }
+
+/* Plants Section */
+.plants-section {
+    margin: 0px 150px 120px;
+    padding: 50px 5%;
+    justify-content: center;
+    text-align: center;
+}
+
+.plants-section h2 {
+    font-size: 3.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-inline: 120px;
+}
+
+.plants-section .subtitle {
+    font-size: 1.1em;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0px 200px 40px;
+    padding-inline: 120px;
+}
+
+.plants-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.plant-card {
+    background-color: #ffffff;
+    border-radius: 0px;
+    padding: 0px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.plant-card:hover {
+    transform: translateY(-5px);
+}
+
+.plant-card img {
+    max-width: 100%;
+    height: 250px; 
+    object-fit: cover;
+    border-radius: 0px;
+    margin-bottom: 15px;
+}
+
+.plant-card h3 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+.plant-card .price {
+    font-size: 1.2em;
+    color: #111111;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.add-to-cart {
+    background-color: #ff6600;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    border-radius: 0px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    min-width: 210px;
+}
+
+.add-to-cart:hover {
+    background-color: #e65c00;
+}
