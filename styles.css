@@ -494,3 +494,76 @@ body {
 .subscribe-form button:hover {
     background-color: #e65c00;
 }
+
+/* Footer Section */
+.footer {
+    background-color: #ffffff;
+    padding: 50px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap; 
+    gap: 210px;
+}
+
+.footer-left {
+    flex: 1;
+    min-width: 250px;
+    margin: 0px 150px 5px;
+}
+
+.footer-left img {
+    height: 80px;
+    width: 135px;
+    margin-bottom: 15px;
+}
+
+.footer-left p {
+    color:rgba(0, 0, 0, 0.5); 
+    line-height: 1.6;
+}
+
+.footer-links {
+    display: flex;
+    gap: 110px;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column a {
+    text-decoration: none;
+    color: #6B7280;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+.footer-column a:hover {
+    color: #ff6600;
+}
+
+.footer-social {
+    display: flex;
+    gap: 15px;
+    margin: 20px 150px 0px 0px;
+}
+
+.footer-social img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+#x{
+    width: 25px;
+    max-height: 25px;
+    margin-top: 2.25px;
+}
+
+.footer-social img:hover {
+    transform: scale(1.1);
+}
