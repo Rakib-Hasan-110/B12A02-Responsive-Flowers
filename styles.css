@@ -568,7 +568,6 @@ body {
     transform: scale(1.1);
 }
 
-
 /* --- Media Queries for Responsiveness --- */
 
 /* Large devices (laptops, smaller desktops) */
@@ -909,5 +908,49 @@ body {
 
     .footer-links {
         gap: 24px 150px;
+    }
+}
+
+/* Extra small devices (portrait phones) */
+@media (max-width: 576px) { /* Changed from 480px to 576px for better common mobile breakpoint */
+    .navbar-logo img {
+        height: 50px;
+    }
+
+    .banner-content h1 {
+        font-size: 1.8em;
+    }
+
+    .plants-section h2 {
+        font-size: 2em;
+    }
+
+    .plants-grid {
+        grid-template-columns: repeat(2, 1fr); /* Single column for very small screens */
+    }
+
+    .add-to-cart{
+        min-width: 160px;
+    }
+
+    .plants-lover-content h2 {
+        font-size: 1.5em;
+    }
+
+    .section-title {
+        font-size: 1.5em;
+    }
+
+    .join-content h2 {
+        font-size: 1.5em;
+    }
+
+    .subscribe-form input {
+        padding: 10px 15px; /* Slightly smaller padding */
+        min-width: 80px; /* Minimum width for input on tiny screens */
+    }
+    .subscribe-form button {
+        padding: 10px 15px; /* Slightly smaller padding */
+        font-size: 0.9em;
     }
 }
