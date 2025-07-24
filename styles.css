@@ -567,3 +567,53 @@ body {
 .footer-social img:hover {
     transform: scale(1.1);
 }
+
+
+/* --- Media Queries for Responsiveness --- */
+
+/* Large devices (laptops, smaller desktops) */
+@media (max-width: 1200px) {
+    .navbar,
+    .banner,
+    .plants-section,
+    .plants-lover-section,
+    .latest-deals-section,
+    .footer {
+        margin-left: 50px;
+        margin-right: 50px;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .plants-section h2,
+    .plants-section .subtitle {
+        padding-inline: 60px;
+    }
+
+    .plants-grid {
+        grid-template-columns: repeat(3, 1fr); /* 3 columns for large tablets/small laptops */
+    }
+
+    .plants-lover-image-container img {
+        width: 450px;
+        height: auto;
+    }
+    .trusted-badge {
+        top: -10%;
+        right: -5%;
+    }
+    .trusted-badge img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .join-section {
+        padding: 120px 5%;
+    }
+    .subscribe-form {
+        max-width: 500px; 
+    }
+    .subscribe-form input {
+        min-width: 150px; 
+    }
+}
