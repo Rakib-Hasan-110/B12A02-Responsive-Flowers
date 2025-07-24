@@ -106,3 +106,46 @@ body {
     font-weight: bold;
     color: #ff6600;
 }
+
+/* Banner Section */
+.banner {
+    display: flex;
+    align-items: center;
+    padding: 50px 5%;
+    background-color: #ffffff; 
+    margin: 0px 150px 120px;
+}
+
+.banner-content {
+    flex: 1;
+    padding-right: 50px;
+}
+
+.banner-content h1 {
+    font-size: 3em;
+    font-weight: bold;
+    color: #ff6600;
+    margin-bottom: 20px;
+    margin-right: 100px;
+}
+
+.banner-content p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-right: 100px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.banner-image {
+    flex: 1;
+    text-align: right;
+    max-width: 100%;
+}
+
+.banner-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
